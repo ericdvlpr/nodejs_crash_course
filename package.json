@@ -1,13 +1,22 @@
 {
-  "name": "nodejs",
+  "name": "nodejs_crash_course",
   "version": "1.0.0",
-  "description": "Node Crash Course",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericdvlpr/nodejs_crash_course.git"
   },
   "author": "Ericpool",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericdvlpr/nodejs_crash_course/issues"
+  },
+  "homepage": "https://github.com/ericdvlpr/nodejs_crash_course#readme",
   "dependencies": {
     "uuid": "^3.3.2"
   },
